@@ -1,0 +1,21 @@
+body {
+  background-image: url("Pictures/download-4.jpg");
+  color:darkcyan;
+  font:borg;
+}
+
+p{
+  ;
+}
+
+div {
+  text-align:center;
+  background-color: #aee1f9;
+  background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+  background-color:aqua;
+  margin: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  border: 5px solid darkcyan;
+}

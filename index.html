@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="script.js"></script>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="newTitle">
+		<h1 id="title">Welcome to the Happy Aquarium</h1>
+		<h6 id="subtitle">get yourself some endorFins</h6>
+	</div>
+	<div id="newAnimal">
+		<p>you dolphinitely have to add some more animals</p>
+		<p>
+			<select id="animalType">
+      <option value="0">dolphin</option>
+      <option value="1">trout</option>
+      <option value="2">clownfish</option>
+      <option value="3">otter</option>
+      <option value="4">seaturtle</option>
+      <option value="5">shark</option>
+      <option value="6">BLUE whale</option>
+      <option value="7">seahorse</option>
+      <option value="8">walrus</option>
+      <option value="9">narwhal</option>
+    </select>
+    <input type="text" id="animalName" placeholder="ANIMAL NAME">
+    <button id="add" onclick="addThisAnimal()">Add this animal</button>
+    </p>
+  </div>
+
+  <div id="giveFood">
+    <h3>give food to the sea animals</h3>
+    <p>Not all animals eat everything, experiment, and sea what they like</p>
+    <p>
+    <select id="foodType">
+      <option value="0">fish</option>
+      <option value="1">insects</option>
+      <option value="2">crabs</option>
+      <option value="3">algae</option>
+      <option value="4">humans</option>
+      <option value="5">krill</option>
+      <option value="6">shrimps</option>
+      <option value="7">clams</option>
+      <option value="8">squid</option>
+    </select>
+    <button id="feed" onclick="feed()">feed</button>
+    </p>
+  </div>
+  
+  <div id="rename">
+    <p>Rename and Animal here</p>
+    <p>
+    <select type="text" id="oldName"> 
+
+    </select>
+    <input type="text" id="newName" placeholder="NEW NAME">
+    <button onclick="rename()">Rename</button>
+  </div>
+  
+  <div> 
+    <h3> The animals in your Aquarium are:</h3>
+    <p id="animList">none for now</p>
+    <p>Things are going Swimmingly</p>
+  </div>
+
+  <div id="veryPunny">
+    <p> anyfin is possible, don't trout yourself</p>
+    <p id="whatHappens"></p>
+  </div>
+
+  <div id="pleaseDont">
+    <h4>Some animals Need a new Home. <br> If you must you can Relocate them.</h4>
+    <select type="text" id="animalList"> 
+
+    </select>
+    <button id="remove" onclick="ethicallyRelocate()">Relocate</button>
+</body>
+<!--big tusk water seal-->
+</html>
